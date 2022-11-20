@@ -7,17 +7,13 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Registration from './Components/Registeration';
 import Scan from './Components/Scan';
 import Upload from './Components/Upload';
+
   
 
 function App() {
   return (
     
     <div className="App">
-    
-      
-     
-    
-      
       <div className="outer">
         <div className="inner">
         <BrowserRouter>
@@ -26,7 +22,8 @@ function App() {
         <Route path="/Login" element={<Login/>}/>
         <Route path="/Home" element={<Home/>}/>
         <Route path="/Scan" element={<Scan/>}/>
-        <Route path="/GetDetail" element={<Upload/>}/>
+        <Route path="/Upload" element={<Upload/>}/>
+  
         </Routes> 
         </BrowserRouter>
         </div>
